@@ -71,7 +71,7 @@ DEFAULT_REQUEST_HEADERS = {
 ITEM_PIPELINES = {
    # 'zhihuUser.pipelines.ZhihuuserPipeline': 300,
   'zhihuUser.pipelines.MongoPipeline': 300,
-  'scrapy_redis.pipelines.RedisPipeline': 301,
+  # 'scrapy_redis.pipelines.RedisPipeline': 301,
 
 }
 
